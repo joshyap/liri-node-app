@@ -20,7 +20,7 @@ var client = new Twitter({
   access_token_secret: 'wbs7DdPdgmjKXYxUJjuxRMBXUVpcCR9M7dMB6pBmsxs1k',
 });
 
-    client.get('statuses/user_timeline', {q: 'smash_crate', count: 20}, function(error, tweets, response) {
+    client.get('statuses/user_timeline', {q: 'yap_ssb', count: 20}, function(error, tweets, response) {
     if (!error) {
         for (i=0; i<tweets.length; i++) {
         //tweetsArray.push(tweets[i].text);
